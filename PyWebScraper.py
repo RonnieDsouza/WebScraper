@@ -50,6 +50,6 @@ for i in range(len(songs_list)):
     link = (songs_list[i]).get('href')
     song_url = general_url + link[2:]
     print(song_url)
-    
+
 
 # print(len(songs_list))
